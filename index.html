@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: rgb(24, 24, 24);
+        }
+        .YouTube{
+            margin-left: 15px;
+            margin-top: -20px;
+        }
+        hr{
+            margin-top: -15px;
+        }
+        .Thumbnail{
+            border-radius: 15px;
+            transition: width 0.7s, border-color 0.7s, 
+            border-style 0.7s;
+            border-style: solid;
+            border-color: rgb(41, 41, 41);
+        }
+        .Thumbnail:hover{
+            width: 375px;
+            border-color: white;
+            border-style: solid;
+        }
+        .Title{
+            margin-left: 50px;
+            font-size: 19px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin-top: -40px;
+        }
+        .DViews{
+            margin-left: 50px;
+            margin-top: -13px;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(187, 187, 187);
+            font-weight: lighter;
+        }
+        .Video-Preview{
+            display: inline-block;
+            cursor:pointer;
+            margin-left: 50px;
+        }
+        .Channel{
+            margin-top: 10px;
+            width: 35px;
+            border-radius: 35px;
+            transition: width 0.5s;
+            border-style: solid;
+            border-color: rgb(35, 35, 35);
+            transition: width 0.7s, border-color 0.7s, 
+            border-style 0.7s;
+        }
+        .Channel:hover{
+            width: 40px;
+            border-color: white;
+            border-style: solid;
+        }
+        .Channel-Name{
+            margin-left: 50px;
+            font-size: 15px;
+            margin-top: -3px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(187, 187, 187);
+            font-weight: lighter;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <div>
+        <img class="YouTube" src="YouTube-dark-removebg-preview.png"
+        width="250">
+    </div>
+    <hr>
+    <br>
+    <div class="Video-Preview">
+        <img onclick=" window.open('https://www.youtube.com/watch?v=iOztnsBPrAA','_blank')" class="Thumbnail" src="Fnaf1THUMB.png"
+        width="350">
+        <br>
+        <img onclick=" window.open('https://www.youtube.com/@markiplier','_blan')"  class="Channel"src="Markiplier.png"
+        width="30">
+        <h2 class="Title">
+            WARNING: SCARIEST GAME IN <br>YEARS | Five Nights at Freddy's - <br>Part 1</h2>
+        <h4 class = Channel-Name>
+            Markiplier
+        </h4>  
+        <h4 class="DViews">
+            113M views &#8226; 9 years ago
+        </h4>
+    </div>
+    <div class="Video-Preview">
+        <img onclick=" window.open('https://www.youtube.com/watch?v=lM1DI5oeOcQ&t=15s','_blank')" class="Thumbnail" src="catmaowjpg.png"
+        width="350">
+        <br>
+        <img onclick=" window.open('https://www.youtube.com/@bloopy0197','_blan')"  class="Channel"src="channels4_profile.jpg"
+        width="30">
+
+        <h2 class="Title">
+            cat saying maw maow maow
+            <br>
+            <br>
+            <br>
+        <h4 class = Channel-Name>
+            Bloopy0
+        </h4>  
+        <h4 class="DViews">
+            1.6M views &#8226; 1 year ago
+        </h4>
+    </div>
+    <div class="Video-Preview">
+        <img onclick=" window.open('https://www.youtube.com/watch?v=KBAixwe3Z80','_blank')" class="Thumbnail" src="maxresdefault.png"
+        width="350">
+        <br>
+        <img onclick=" window.open('https://www.youtube.com/@srgxz','_blan')"  class="Channel"src="channels4_profile (1).jpg"
+        width="30">
+
+        <h2 class="Title">
+            jerma freddy fazbear impression
+            <br>
+            <br>
+            <br>
+        <h4 class = Channel-Name>
+            srgxz
+        </h4>  
+        <h4 class="DViews">
+            453K views &#8226; 6 months ago
+        </h4>
+    </div>
+    
+    
+</body>
+</html>
